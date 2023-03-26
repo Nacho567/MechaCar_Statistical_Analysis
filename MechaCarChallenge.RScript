@@ -1,13 +1,28 @@
-###Dependency
+#Dependency
 library(dplyr)
 library(tidyverse)
 
-### Read CSV file (read.csv(file='MechaCar_mpg.CSV',check.names=F,stringsAsFactors = F))??
-Mecha_mpg <-read_csv("MechaCar_mpg.CSV")
+#DELIVERABLE 1
 
-###run multi linear regression
+#Read CSV file (read.csv(file='MechaCar_mpg.CSV',check.names=F,stringsAsFactors = F))??
+Mecha_mpg <- read_csv("MechaCar_mpg.CSV")
+
+#run multi linear regression
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,Mecha_mpg)
 
 #generate summary
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,Mecha_mpg))
 
+
+
+#DELIVERABLE 2
+
+#Read csv in
+Suspension <- read_csv("Suspension_Coil.csv")
+
+#summary DF
+total_summary <- Suspension %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
+total_summary
+
+#lot DF 
+lot_summary <- Suspension %>% groupby(Manufacturing_Lot) %>% 
