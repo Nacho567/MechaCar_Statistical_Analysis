@@ -17,4 +17,20 @@ This week we were tasked with analyzing AutosRUs' newest prototype, the MechaCar
 
 ### Study Design: MechaCar vs Competition
 
-For our study, we're going to look at how 
+For our study, we're going to look at the correlation of price vs maintenance cost.
+
+#### Metrics to Test
+
+- Total cost of the car
+- Average maintenance cost per year
+
+#### Hypothesis
+
+**Null hypothesis:**
+**Alternative hypothesis:**
+
+#### Statistical Testing
+
+#### Data
+
+
