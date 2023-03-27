@@ -7,9 +7,14 @@ This week we were tasked with analyzing AutosRUs' newest prototype, the MechaCar
 ## **Results**
 
 ### Linear Regression to Predict MPG
+![Linear Regression Results]()
 
 ### Summary Statistics on Suspension Coils
+![Summary Statistics Results]()
 
 ### T-Tests on Suspension Coils
+![T-test results]()
 
 ### Study Design: MechaCar vs Competition
+
+For our study, we're going to look at how 
