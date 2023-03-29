@@ -25,7 +25,7 @@ total_summary <- Suspension %>% summarize(Mean=mean(PSI), Median=median(PSI), Va
 total_summary
 
 #lot DF 
-lot_summary <- Suspension %>% groupby(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups= 'keep')
+lot_summary <- Suspension %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups= 'keep')
 lot_summary
 
 
