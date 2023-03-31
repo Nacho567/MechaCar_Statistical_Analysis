@@ -49,6 +49,8 @@ Both of these metrics should be used with whatever average group is best. For ex
 
 - A simple linear regression should give us our answer. If higher priced cars do indeed lead to cheaper (or less) maintence costs, we can graph that as a negative sloped line.
 
-#### Data
+#### Data Needed
 
+- Cost of all models being compared, with a wide enough selection to give an idea of low to high cost cars.
+- Yearly cost of maintenance for the models.
 
