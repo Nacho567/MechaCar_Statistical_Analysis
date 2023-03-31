@@ -9,6 +9,12 @@ This week we were tasked with analyzing AutosRUs' newest prototype, the MechaCar
 ### Linear Regression to Predict MPG
 ![Linear Regression Results](https://github.com/Nacho567/MechaCar_Statistical_Analysis/blob/90c88d3ea11bcd30d6e7413d6b6bb9740721743a/Resources/mpg_summary.png)
 
+- The variables intercept, vehicle length, and vehicle clearance contributed a non-random amount of variance to the MPG values.
+
+- Since the p-value is 5.34e-11, there is enough evidence to reject the null hypothesis, which means that the slope is not zero.
+
+- Since the r-squared value is 0.71, or about 71%, we can confidently say that this model will predict 71% of of prototypes effectively.
+
 ### Summary Statistics on Suspension Coils
 ![Summary Statistics Results](https://github.com/Nacho567/MechaCar_Statistical_Analysis/blob/90c88d3ea11bcd30d6e7413d6b6bb9740721743a/Resources/total_summary.png)
 ![Lot Summary Statistics](https://github.com/Nacho567/MechaCar_Statistical_Analysis/blob/90c88d3ea11bcd30d6e7413d6b6bb9740721743a/Resources/lot_summary.png)
