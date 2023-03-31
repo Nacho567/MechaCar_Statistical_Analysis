@@ -36,9 +36,6 @@ lot_summary
 t.test(Suspension$PSI, mu=1500)
 
 #test each lot 
-#t.test(x=subset(Suspension,Manufacturing_Lot == 'Lot1')$PSI,mu=1500)
-
-#t.test(x=subset(Suspension, Manufacturing_Lot == 'Lot2'))
 
 t.test(Suspension$PSI, subset = Suspension$Manufacturing_Lot == 'Lot1', mu=1500)
 t.test(Suspension$PSI, subset = Suspension$Manufacturing_Lot == 'Lot2', mu=1500)
