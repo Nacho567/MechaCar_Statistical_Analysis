@@ -19,7 +19,7 @@ This week we were tasked with analyzing AutosRUs' newest prototype, the MechaCar
 ![Summary Statistics Results](https://github.com/Nacho567/MechaCar_Statistical_Analysis/blob/90c88d3ea11bcd30d6e7413d6b6bb9740721743a/Resources/total_summary.png)
 ![Lot Summary Statistics](https://github.com/Nacho567/MechaCar_Statistical_Analysis/blob/90c88d3ea11bcd30d6e7413d6b6bb9740721743a/Resources/lot_summary.png)
 
-- In reviewing both summary tables, we can conclude that Lots 1 & 2 meet current design specs as the variances don't exceed 100 psi. Lot 3 does not meet this standard as the variance is 170psi, nearing double the allowed variance.
+- In reviewing both summary tables, we can conclude that Lots 1 & 2 meet current design specs as the variances don't exceed 100 psi. Lot 3 does not meet this standard as the variance is 170psi, nearly double the allowed variance.
 
 ### T-Tests on Suspension Coils
 ![T-test results](https://github.com/Nacho567/MechaCar_Statistical_Analysis/blob/90c88d3ea11bcd30d6e7413d6b6bb9740721743a/Resources/suspension_ttest.png)
@@ -38,11 +38,13 @@ For our study, we're going to look at the correlation of price vs maintenance co
 
 - Average total cost of the car
 - Average maintenance cost per year
+
 Both of these metrics should be used with whatever average group is best. For example, a car might cost more in California or Florida vs Wyoming or South Dakota. Likewise, maintenance costs would be more in those same states vs the other two. But an overall nationwide average could still give an idea of costs.
 
 #### Hypothesis
 
 **Null hypothesis:** Higher priced cars do not have cheaper maintenance costs.
+
 **Alternative hypothesis:** Higher priced cars do have cheaper maintenance costs.
 
 #### Statistical Testing
