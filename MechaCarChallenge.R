@@ -4,7 +4,7 @@ library(tidyverse)
 
 #DELIVERABLE 1
 
-#Read CSV file (read.csv(file='MechaCar_mpg.CSV',check.names=F,stringsAsFactors = F))??
+#Read CSV file
 Mecha_mpg <- read_csv("MechaCar_mpg.CSV")
 
 #run multi linear regression
